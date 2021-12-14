@@ -8,12 +8,9 @@ services:
 
 jobs:
   include:
-    - stage: DemoFull-Apache
+    - stage: Demo-point-cloud-lyon
       script:
-        - docker build -t ud-viz:demofull-apache DemoFull-Apache
-    - stage: DemoFull-SimpleServer
-      script:
-        - docker build -t ud-viz:demofull-simpleserver DemoFull-SimpleServer
+        - docker build -t ud-viz:demo-point-cloud-lyon .
     - stage: "Markdown link checks"
       language: node_js
       node_js: 12
@@ -26,4 +23,3 @@ jobs:
           if [ $warnings -gt $FAILURE_THRESHOLD ]; then
             exit 1;
           fi
-
