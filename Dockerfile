@@ -1,7 +1,7 @@
 FROM ubuntu:focal
 
 LABEL maintainer "VCityTeam"
-LABEL source.repo "https://github.com/VCityTeam/UD-Viz-Template-docker"
+LABEL source.repo "https://github.com/VCityTeam/UD-Demo-Vcity-Point-Cloud-Lyon-2018-Docker"
 
 RUN apt-get update
 
