@@ -1,4 +1,4 @@
-# Demo LODs
+# Demo Point Cloud
 
 Create a docker of a [demo of a 3D Tiles Point Cloud dataset of Lyon](https://github.com/VCityTeam/UD-Demo-Vcity-Point-Cloud-Lyon-2018).  
 <!-- _See the [online version](https://lods-lyon.vcityliris.data.alpha.grandlyon.com/)_. -->
